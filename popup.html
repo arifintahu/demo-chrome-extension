@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    	<meta charset="UTF-8">
+        <title>Demo Chrome Extension</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="head">
+                <div class="icon">
+                    <img src="assets/icons/start/icon-32.png" />
+                </div>
+                <div class="title">Demo Extension</div>
+            </div>
+            <div id="content">
+                <div class="page">
+                    <div class="link" id="address">Address</div>
+                    <hr class="border" />
+                </div>
+                <div class="page">
+                    <div id="status" class="status"></div>
+                </div>
+                <div class="button">
+                    <button id="buttonStart" class="button-success pure-button d-block">
+                        START
+                    </button>
+                    <button id="buttonLoad" class="pure-button pure-button-disabled">
+                        LOADING
+                    </button>
+                    <button id="buttonStop" class="button-error pure-button">
+                        STOP
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- wrapper -->
+        
+        <script src="popup.js"></script>
+    </body>
+</html>

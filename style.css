@@ -1,0 +1,91 @@
+body {
+	overflow: hidden;
+	background-color: #f4f4f4;
+	padding: 12px;
+	flex-direction: column;
+	font-style: normal;
+    font-family: "Lato", Arial, sans-serif;
+}
+
+#wrapper {
+	width: 300px;
+	padding: 12px;
+}
+
+#wrapper #head {
+	display: flex;
+	align-items: center;
+	margin-bottom: 12px;
+}
+
+#head .title {
+	margin-left: 10px;
+	font-weight: 500;
+	font-size: 14px;
+}
+
+#wrapper #content {
+	background-color: #fff;
+	padding: 18px;
+}
+
+#content .page .status {
+	text-align: center;
+	font-size: 11px;
+	padding: 8px;
+}
+
+#content .page .link {
+	text-align: center;
+	font-size: 16px;
+	font-weight: 500;
+	padding: 8px;
+}
+
+#content .page .border {
+	height: 0.6px;
+	border-width: 0;
+	color: gray;
+	background-color: gray;
+	opacity: 0.2;
+	margin-bottom: 12px;
+}
+
+#content .button {
+	display: flex;
+	justify-content: center;
+}
+
+.d-block {
+	display: block !important;
+}
+
+.d-none {
+	display: none !important;
+}
+
+button#buttonStart, button#buttonLoad, button#buttonStop {
+	display: none;
+}
+
+.button-success,
+.button-error {
+    color: white !important;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.button-success {
+    background-color: rgb(28, 184, 65) !important;
+}
+
+.button-error {
+    background-color: rgb(202, 60, 60) !important;
+}
+
+.button-disabled {
+    background: gray;
+    color: black !important;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
